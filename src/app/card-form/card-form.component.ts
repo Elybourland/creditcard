@@ -23,7 +23,10 @@ export class CardFormComponent implements OnInit {
     console.log(this.cardForm.get('name'));
   }
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  onSubmit() {
+    console.log('Form was submitted');
   }
 
 }
